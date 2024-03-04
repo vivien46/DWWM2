@@ -1,0 +1,37 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+<h1>
+    Modification d'un Membre
+</h1>
+
+{# {{ form(formUser) }} #}
+{{ form_start(formUser, {
+    attr : {
+        novalidate: 'novalidate'
+    }
+}) }}
+
+{# {{ form_widget(formCategorie.title) }}
+{{ form_widget(formCategorie.content) }}
+{{ form_widget(formCategorie.image) }} #}
+
+{{ form_row(formUser.email, {
+    label :"Email",
+    attr: {
+        placeholder: "Email du membre"
+    }
+    }) }}
+     {{ form_row(formUser.nom, {'attr':{'placeholder': "nom du membre"}}) }}
+     {{ form_row(formUser.prenom, {'attr':{'placeholder': "prenom du membre"}}) }}
+     {{ form_row(formUser.adresse, {'attr':{'placeholder': "adresse du membre"}}) }}
+     {{ form_row(formUser.ville, {'attr':{'placeholder': "ville du membre"}}) }}
+     {{ form_row(formUser.codePostal, {'attr':{'placeholder': "code postal du membre"}}) }}
+     
+     <button type="submit" class="btn btn-primary mt-2">
+     💾 Enregistrer les modifications
+</button>
+{{ form_end(formUser) }}
+
+{% endblock %}

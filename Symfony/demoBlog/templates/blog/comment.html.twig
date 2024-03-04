@@ -1,0 +1,42 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+<h1>
+{% if editMode %}
+    Modification d'un commentaire
+{% else %}   
+    Création d'un commentaire
+{% endif %}
+</h1>
+
+{# {{ form(formCategory) }} #}
+{{ form_start(formComment, {
+    attr : {
+        novalidate: 'novalidate'
+    }
+}) }}
+
+{# {{ form_widget(formCategorie.title) }}
+{{ form_widget(formCategorie.content) }}
+{{ form_widget(formCategorie.image) }} #}
+
+{# {{ form_row(formComment.author, {
+    label :"auteur",
+    attr: {
+        placeholder: "Auteur du commentaire"
+    }
+    }) }} #}
+     {{ form_row(formComment.content, {'attr':{'placeholder': "contenu du commentaire"}}) }}
+
+     <button type="submit" class="btn btn-primary mt-2">
+     
+     {% if editMode %}
+     💾 Enregistrer les modifications
+     {% else %}
+     ✅ Ajouter la Commentaire
+{% endif %}
+</button>
+{{ form_end(formComment) }}
+
+{% endblock %}

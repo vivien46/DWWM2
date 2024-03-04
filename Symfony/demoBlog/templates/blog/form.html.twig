@@ -1,0 +1,44 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+
+<h1>
+{% if editMode %}
+    Modification d'un article
+{% else %}   
+    Création d'un article
+{% endif %}
+</h1>
+
+{# {{ form(formArticle) }} #}
+{{ form_start(formArticle, {
+    attr : {
+        novalidate: 'novalidate'
+    }
+}) }}
+
+{# {{ form_widget(formArticle.title) }}
+{{ form_widget(formArticle.content) }}
+{{ form_widget(formArticle.image) }} #}
+
+{{ form_row(formArticle.title, {
+    label :"Titre",
+    attr: {
+        placeholder: "Titre de l'article"
+    }
+    }) }}
+     {{ form_row(formArticle.category )}}
+     {{ form_row(formArticle.content, {'attr':{'placeholder': "contenu de l'article"}}) }}
+     {{ form_row(formArticle.imageFile, {label: "Ajouter une image"}) }}
+
+     <button type="submit" class="btn btn-primary mt-2">
+     
+     {% if editMode %}
+     💾 Enregistrer les modifications
+     {% else %}
+     ✅ Ajouter l'article
+{% endif %}
+</button>
+{{ form_end(formArticle) }}
+
+{% endblock %}

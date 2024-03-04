@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Back Office{% endblock %}
+
+{% block body %}
+<div class="text-center">
+    <h1 class="my-4">Back Office</h1>
+    <div class="alert alert-info">Bienvenue sur le Backoffice</div>
+    <a href="{{ path('admin_articles') }}" class="col-md-6 btn btn-dark mb-2">Gestion des Articles</a>
+    <a href="{{ path('admin_categories') }}" class="col-md-6 btn btn-dark mb-2">Gestion des Categories</a>
+    <a href="{{ path('admin_users') }}" class="col-md-6 btn btn-dark mb-2">Gestion des membres</a>
+    <a href="{{ path('admin_comments') }}" class="col-md-6 btn btn-dark mb-2">Gestion des commentaires</a>
+</div>
+{% endblock %}

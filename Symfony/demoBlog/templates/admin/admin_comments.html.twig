@@ -1,0 +1,45 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Gestion des Categories{% endblock %}
+
+{% block body %}
+
+<div class="text-center my-5">
+    <h1 class="my-4">Gestion des Commentaires</h1>
+    <div class="alert alert-info">💬 Vous trouverez ci-dessous le tableau contenant l'ensmble des commentaires du blog</div>
+
+{% for message in app.flashes('success') %}
+    <div class="col-md-5 mx-auto alert alert-success text-center">
+        {{ message }}
+    </div>
+    {% endfor %}
+{# <a href="{{ path('admin_new_comment') }}" class="btn btn-primary mt-3">Créer une nouvelle categorie</a> #}
+</div>
+
+<table class="table table-bordered table-striped table-hover text-center">
+    <thead class="table-dark">
+        <tr>
+            {% for colonne in colonnes %}
+                {% if colonne != 'id' %}
+                    <th>{{ colonne }}</th>
+                {% endif %}
+            {% endfor %}
+            <th>Voir</th>
+            <th>Editer</th>
+            <th>Supprimer</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for comment in comments %}
+            <tr>
+                <td>{{ comment.author }}</td>
+                <td>{{ comment.content | raw }}</td>
+                <td>{{ comment.createdAt | date('d/m/Y à H:i:s')}}</td>
+                <td><a href="{{ path('blog_show', {"id": comment.id }) }}" class="btn btn-info"><i class="fa-solid fa-eye" aria-hidden="true"></i></a></td>
+                <td><a href="{{ path('admin_edit_comment', {"id": comment.id }) }}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i></a></td>
+                <td><a href="{{ path('admin_delete_comment', {"id": comment.id }) }}" class="btn btn-danger"><i class="fa-solid fa-trash-can" aria-hidden="true"></i></a></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
