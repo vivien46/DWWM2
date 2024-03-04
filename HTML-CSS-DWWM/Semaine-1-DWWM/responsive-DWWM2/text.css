@@ -1,0 +1,51 @@
+/*par convention un site web doit être reponsive jusqu'à 320px*/
+
+/* h1{
+    /* font-size: 50px; */
+    /* font-size: 5vw;1vw veut dire 1% de la largeur de la fenetre, nous avons aussi des vh pour la hauter */
+    /* font-size: calc(2vw+30px);  faire attention sur les tout petits ecrans ça casse à partir d'un certain temps*/
+
+    /* font-size: clamp(30px, 5vw, 50px);pas en dessous de 30px valeur préférée 5vw et pas au dessus de 50px */
+/* } */
+
+/*technique de l'escalier*/
+h1{
+    font-size: 65px;
+}
+@media (max-width: 1000px){
+    h1{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 700px){
+    h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 25px;
+    }
+}
+/* quelques astuces */
+
+.card{
+     max-width: 600px;/* largeur maximum */
+    /* min-width: 300px; largeur minimum */
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px){
+    .card .card-content{
+        display: none;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

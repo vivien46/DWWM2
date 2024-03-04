@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+
+
+header{
+    background: blue;
+    height: 80px;
+}
+
+nav{
+    background: lightblue;
+    height: 30px;
+}
+
+section{
+    background: lightcoral;
+    height: 800px;
+}
+
+footer{
+    background-color: blue;
+    height: 80px;
+}

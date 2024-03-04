@@ -1,0 +1,18 @@
+ul li{
+    list-style: none;
+}
+
+ol li{
+    list-style-type: none;
+}
+
+p{
+    color: green;
+}
+.paragraphe-2{
+    color: brown;
+}
+
+#monID{
+    color: blue;
+}

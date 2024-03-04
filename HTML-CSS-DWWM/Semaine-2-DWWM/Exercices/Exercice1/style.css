@@ -1,0 +1,69 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+header{
+    background-color: bisque;
+    width: 940px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+header ul li{
+        list-style: none;
+        margin-left: 10px;
+        margin-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+
+img{
+    width: 400px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    border: 1px solid;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+            
+}
+
+.gauche{
+        width: 50px;
+        height: 50px;
+        background-color: lightcoral;   
+}
+
+.centre{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(37, 24, 24);
+    align-self: center;
+}
+
+.droite{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    align-self: flex-end;
+}

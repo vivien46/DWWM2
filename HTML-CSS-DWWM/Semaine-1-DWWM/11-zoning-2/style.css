@@ -1,0 +1,44 @@
+*{
+    margin: none;
+}
+
+header{
+    height: 100px;
+    background: red;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+}
+
+.bleuclaire{
+    background: aqua;
+    height: 906px;
+    width: 20%;
+}
+
+.vert{
+    background: green;
+    height: 906px;
+    width: 60%;
+    
+    
+}
+
+.rougefonce{
+    background: rgb(114, 4, 4);
+    height: 906px;
+    width: 20%;
+}
+
+/*.rose{
+    background: pink;
+    height: 800px;
+    width: 50%;
+}*/
+
+footer{
+    height: 100px;
+    background: yellow;
+}

@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    font-weight: 30px;
+    font-size: 50px;
+    position: relative;   
+}
+
+.bonjour{
+   /* display: block;*/
+    width: 120px;
+    height: 120px;
+    background: #ff7a00;
+    color: blue;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 120px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.bonjour:hover{
+    /**animation-direction: normal;****/
+    transform: rotate(150deg);
+    background-color: purple;
+    zoom: 4;
+}

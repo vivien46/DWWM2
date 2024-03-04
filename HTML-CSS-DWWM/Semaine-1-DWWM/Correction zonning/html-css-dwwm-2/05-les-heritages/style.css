@@ -1,0 +1,59 @@
+*{/*Nous cassons l'effet d'heritage pour toutes les balise suceptile d'etre concernees*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+/*en faisant un reset on ne nous impose rien, rien ne nous empeche de définirnotre style*/
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid;
+    /* display: inline; */
+}
+
+/*p{/*la balise p est en display block par defaut*/
+    /* background-color: red; */
+  
+/*}*/
+
+
+span{ /*la span est en display inline par defaut*/
+    background: blue;
+   
+}
+
+/*****************le model boite*****************/
+
+#boite{
+    width: 250px;
+    height: 250px;
+    /* margin: 20px auto ; */
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    /* border-color: black ;
+    border-style: solid;
+    border-width: 2px; */
+
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    /* padding: 20px 10px 30px 40px ; */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+/*les margin c'est ce qu'on trouve en dehors de la bordure c'est a dire l'espace entre les élément
+la bordure c'est ce qui delimite l'espace du parent
+les padding c'est l'espace entre la bordure et le contenu 
+contenu (paragraphe, image ext...*/
+
+/*pour les margin et les padding les valeur sont prise en compte comme le sens des aiguilles d'une montre c'est a dire en haut a droite en bas a gauche  */

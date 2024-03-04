@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+
+
+.div1{
+    height: 450px;
+    width: 200px;
+    background: red;
+}
+
+.div2{
+    height: 300px;
+    width: 100px;
+    background: blue;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.container{
+    position: relative;
+    margin: 200px;
+    border: 2px solid;
+}
+/* p{
+  
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+ 
+   
+} */
+
+nav{
+    background-color: blanchedalmond;
+    height: 50px;
+    text-align: center; /*allignement du texte*/
+    padding: 20px;
+    position: fixed; /*le menu reste fixer en haut lors du scroll*/
+    width: 100%; /*largeur 100% de la fenetre*/
+    /* bottom: 0; peut servir a fixer le menu en bas de la page */ 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ 
+}
+
+.sticky{
+    position: sticky;
+    top: 20px;
+    background: yellow;
+    height: 50px;
+    width: 50px;
+    border: 2px solid green;
+}

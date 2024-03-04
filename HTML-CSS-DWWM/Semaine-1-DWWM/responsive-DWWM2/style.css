@@ -1,0 +1,106 @@
+p{
+    font-size: 35px;
+}
+
+/* @media (max-width: 1000px){
+    .txt-1{
+        color: lightcoral;
+    }
+    
+} */
+
+/*min-width => au dessus de 1000px*/
+/* @media (min-width: 1000px){
+    .txt-2{
+        color: blue;
+    }
+} */
+
+/* height*/
+/* @media (height: 600px){
+    .txt-2{
+        background-color: greenyellow;
+    }
+} */
+
+/*width => taille précise*/
+/* @media (width: 600px){
+    .txt-1{
+        background-color: brown;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .txt-2{
+        background-color: lightsalmon;
+    }
+}
+@media print and (max-width: 900px){
+    .txt-1{
+        background-color: lightseagreen;
+    }
+} */
+/* les opérateurs */
+/* il faut que les deux valeurs soient vrais */
+
+/* @media (min-widht: 500px) and (max-width: 1000px){
+    p{
+        background-color: black;
+        color: red;
+    }
+} */
+
+/* soit l'un, soit l'autre. ca nous fait un cas a l'infini il y en aura toujours un qui s'appliquera */
+/* @media (min-widht: 500px),(max-width: 1000px){
+    p{
+        background-color: black;
+        color: red;
+    }
+} */
+
+/*not => inverse les valeurs */
+@media not (min-width: 1000px){
+    p{
+        background-color: black;
+        color: red;
+    }
+}
+
+/* fonctionne seulement si le periphérique supporte le hover ===> ecran ordinateur*/
+@media (hover: hover){
+    p:hover{
+        background: burlywood
+    }
+}
+
+/* coarse = grossier = petit ecran ====doigt (mobile ou tactile */
+/* @media (pointer: coarse){
+    body{
+        background-color: lightsalmon;
+    }
+} */
+
+/* @media (pointer: fine){
+    body{
+        background-color: blueviolet;
+    }
+} */
+@media (prefers-color-scheme : dark){
+    body{
+        background-color: #222;
+        color: #f1f1f1;
+    }
+}
+
+/* orientation d'un tel ou d'une tablette */
+@media (orientation: landscape){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (orientation: portrait){
+    body{
+        background-color: lightblue;
+    }
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+P{
+    text-transform: capitalize;
+  
+}
+.rouge{
+    height: 150px;
+    width: 100%;
+    background: red;
+    position: absolute;
+    
+}
+.parent{
+    display: flex;
+}
+.bleu{
+    background: blueviolet;
+    width: 30%;
+    height: 1000px;
+}
+
+.verte{
+    background: chartreuse;
+width: 70%;
+}
+/*deuxieme zonning*/
+
+.bleu1{
+    background: cyan;
+    width: 25%;
+    height: 1000px;
+}
+
+.verte1{
+    background: darkgreen;
+    width: 60%;
+}
+
+.marron{
+    background: darkred;
+    width: 20%;
+}
+
+/*troisieme zonning*/
+
+.violet{
+    background: indigo;
+    width: 50%;
+    height: 780px;
+}
+.rose{
+    background: mediumvioletred;
+    width: 50%;
+}
+.jaune{
+    height: 150px;
+    width: 100%;
+    background: rgb(207, 221, 10);
+}
+
+/* quatrieme zonning*/
+
+
+.haut{
+    background: turquoise;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    background: violet;
+    height: 50px;
+
+}
+
+.milieu{
+    background: yellow;
+    margin: 30px ;
+    height: 680px;
+}
+
+
+
+/***cinquieme zonning*/
+.parents{
+    margin: 20px;
+    height: 650px;
+}
+
+.a{
+    background: lightblue;
+    width: 50%;
+    height: 325px;
+
+}
+.b{
+    background: lightcoral;
+    width: 50%;
+    height: 325px;
+}
+.c{
+    background: lightgreen;
+    width: 50%;
+    height: 325px;
+}
+.d{
+    background: lightsalmon;
+    width: 50%;
+    height: 325px;
+}
+.a,.b,.c,.d{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+.bas{
+    background: turquoise;
+    height: 100px;
+}
+
+/*bonus*/
+
+.centre{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 50px;
+}
+
+.bleu3{
+    flex: start;
+    background: turquoise;
+    width: 25%;
+    height: 1000px;
+}
+
+.mybox{
+     display: flex;
+    width: 50%;
+  
+;
+   
+}
+.principale{
+    display: flex;
+    
+}
+
+.zonne{
+    
+    background: chartreuse;
+    margin: 10px;
+    width: 250px;
+    
+   
+}
+
+.jaune{
+   
+    height: 200px;
+   
+    
+}

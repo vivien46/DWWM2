@@ -1,0 +1,25 @@
+*{
+    margin: none;
+}
+
+header{
+    height: 100px;
+    background: red;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+}
+
+.violet{
+    background: purple;
+    height: 906px;
+    width: 40%;
+}
+
+.vert{
+    background: rgb(64, 226, 0);
+    height: 906px;
+    width: 60%;
+}

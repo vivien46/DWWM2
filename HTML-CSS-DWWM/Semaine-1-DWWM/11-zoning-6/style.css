@@ -1,0 +1,80 @@
+header{
+    height: 100px;
+    background: red;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+}
+
+.violet{
+    background: purple;
+    height: 800px;
+    width: 60%;
+    margin-right: 5px;
+}
+
+.bleu1{
+    background: lightblue;
+    height: 805px;
+    width: 25%;
+}
+
+.bleu2{
+    background: lightblue;
+    height: 805px;
+    width: 25%;
+}
+
+.vert1{
+    background: green;
+    height: 795px;
+    width: 10%;
+    margin: 5px;
+}
+
+.vert2{
+    background: green;
+    height: 795px;
+    width: 10%;
+    margin: 5px;
+}
+
+.vert3{
+    background: green;
+    height: 795px;
+    width: 10%;
+    margin: 5px;
+}
+
+.vert4{
+    background: green;
+    height: 795px;
+    width: 10%;
+    margin: 5px;
+}
+
+.vert5{
+    background: green;
+    height: 795px;
+    width: 10%;
+    margin: 5px;
+}
+
+.rouge{
+    background: rgb(114, 4, 4);
+    height: 530px;
+    width: 20%;
+}
+
+.rose{
+    background: pink;
+    height: 800px;
+    width: 50%;
+}
+
+footer{
+    height: 30px;
+    background: yellow;
+}

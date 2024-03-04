@@ -1,0 +1,26 @@
+header{
+    height: 100px;
+    background: red;
+}
+
+.parent{
+    display: flex;
+    height: 100%;
+}
+
+.violet{
+    background: rgb(95, 2, 95);
+    height: 906px;
+    width: 50%;
+}
+
+.rose{
+    background: rgb(231, 64, 120);
+    height: 906px;
+    width: 50%;
+}
+
+footer{
+        background: yellow;
+        height: 150px;
+}

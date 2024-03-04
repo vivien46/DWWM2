@@ -1,0 +1,22 @@
+ul li{
+    list-style-type: none; /*cette propriété sert a enlever les puces devant les li sur la navigateur ou les remplacer */
+    color: blue;
+}
+
+ul li{
+   color: red; /* la valeur de color ici écrase la premiere valeur qui est blue*/
+}
+
+
+
+.paragraphe-2{ /*avec le . on apppele la classe */
+    color: brown;
+}
+
+#monId{ /*avec le # on apple un ID*/
+    color: blue;
+}
+
+#accueil{
+    color: lightsalmon;
+}

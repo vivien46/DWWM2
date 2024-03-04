@@ -1,0 +1,34 @@
+#transition img{
+animation: rateau ease 12s;
+animation-iteration-count: infinite;
+transform-origin: 50%,50%;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes rateau{
+    0%{
+        transform: translate(0px,0px);
+    }
+    10%{
+        transform: translate(79px,-22px);
+    }
+    26%{
+        transform: translate(-4px,-5px);
+    }
+    33%{
+        transform: translate(80px,18px);
+    }
+    48%{
+        transform: translate(80px,18px);
+    }
+    56%{
+        transform: translate(57px,-45px);
+    }
+    75%{
+        transform: translate(-11px,-12px);
+    }
+    82%{
+        transform: translate(0px,0px);
+    }
+}

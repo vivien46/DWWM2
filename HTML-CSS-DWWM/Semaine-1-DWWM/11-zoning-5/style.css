@@ -1,0 +1,62 @@
+header{
+    height: 100px;
+    background: aquamarine;
+}
+
+nav{
+    background: rgb(236, 132, 236);
+    height: 50px;
+}
+
+.parent{
+    display: flex;
+    height: 650px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+/*.violet{
+    background: purple;
+    height: 800px;
+    width: 50%;
+}*/
+
+.vert{
+    background: green;
+    height: 325px;
+    width: 50%;
+}
+
+/*.rouge{
+    background: rgb(114, 4, 4);
+    height: 530px;
+    width: 20%;
+}*/
+
+.rose{
+    background: pink;
+    height: 325px;
+    width: 50%;
+}
+
+/*.jaune{
+    background: yellow;
+    height: 800px;
+    width: 100%;
+}*/
+
+.bleu{
+    background: lightblue;
+    height: 325px;
+    width: 50%;
+}
+
+.saumon{
+    background: lightsalmon;
+    height: 325px;
+    width: 50%;
+}
+.bas{
+    height: 10em;
+    background: lightblue;
+}
