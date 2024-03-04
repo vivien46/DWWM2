@@ -1,0 +1,23 @@
+.container{
+    width: 660px;
+    height: 250px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.BurgerName{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.burgDesc{
+    font-size: 20px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
