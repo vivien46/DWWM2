@@ -1,4 +1,4 @@
-const APIKEY = 'bbweacc0vv3z7hntjdz3e0axkxl3ev8nomzxoeea';
+const APIKEY = '';
 
 const URLAPI = 'https://api.rss2json.com/v1/api.json?';
 
