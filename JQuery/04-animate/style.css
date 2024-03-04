@@ -1,0 +1,51 @@
+.carre{
+    width: 50px;
+    height: 50px;
+}
+
+.rond{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bleu{
+    background: blue;
+}
+
+.rouge{
+    background: red;
+}
+
+.jaune{
+    background: yellow;
+}
+
+.vert{
+    background: green;
+}
+
+.relative{
+    position: relative;
+}
+
+#filtre{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .9);
+    display: none;
+}
+
+#fenetre{
+    position: fixed;
+    background: white;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    padding: 40px;
+    transform: translate3d(-50%,-50%,0);
+    display: none;
+}
