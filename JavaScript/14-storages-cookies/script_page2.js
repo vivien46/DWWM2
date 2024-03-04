@@ -1,0 +1,1 @@
+document.getElementById('contenu').innerHTML= `il y a dans infos1 de session storage : ${sessionStorage.getItem('info1')} et il y a dans info2 de local storage : ${localStorage.getItem('info2')}`;

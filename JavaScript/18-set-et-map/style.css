@@ -1,0 +1,9 @@
+#panier{
+    border-collapse: collapse;
+}
+
+#panier th, #panier td{
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}

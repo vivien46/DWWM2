@@ -1,0 +1,65 @@
+.horloge{
+    width: 95vw;
+    max-width: 600px;
+    height: 95vw;
+    max-height: 600px;
+    background-image: url('./img/horloge.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+
+.grandeaiguille, .petiteaiguille, .trotteuse, .vis{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.grandeaiguille{
+    width: 3%;
+    height: 90%;
+    background: linear-gradient(to top, transparent 45%, grey);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.petiteaiguille{
+    width: 5%;
+    height: 50%;
+    background: linear-gradient(to top, transparent 45%, blue);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.trotteuse{
+    width: 2%;
+    height: 85%;
+    background: linear-gradient(to top, transparent 45%, red);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.vis{
+    width: 1%;
+    height: 1%;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.hnum{
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    border: 2px solid red;
+    border-radius: 10%;
+    margin: 10px;
+    position: relative;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}

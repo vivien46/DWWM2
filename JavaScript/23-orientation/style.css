@@ -1,0 +1,17 @@
+#madiv{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+@media screen and (orientation:portrait){
+    #madiv{
+        background: red;
+    }
+}
+
+@media screen and (orientation:landscape){
+    #madiv{
+        background: blue;
+    }
+}

@@ -1,0 +1,30 @@
+/*Combinateurs CSs */
+
+/* Combinateur espace parent/enfant */
+body div{
+    /* CSS*/
+}
+
+/* Combinateur > enfant directe */
+body>div{
+
+}
+
+/* Combinateur Adjacent direct*/
+section#masection+p{
+    background: purple;
+}
+
+/* Combinateur ~ adjacents */
+section#masection~p{
+    border : 1px solid orange;
+}
+
+.style1{
+    display: block;
+    background: blue;
+    color: yellow;
+    border: 3px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 4);
+}

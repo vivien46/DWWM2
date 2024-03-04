@@ -1,0 +1,4 @@
+#oeil{
+    cursor: pointer;
+    user-select: none; /* Neutralise la selection de l'utilisateur */
+}

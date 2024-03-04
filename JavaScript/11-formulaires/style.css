@@ -1,0 +1,61 @@
+.ok{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+#mdp{
+    padding-right: 30px;
+}
+
+#oeil{
+    position: relative;
+    left: -27px;
+    top: 1px;
+    z-index: 99;
+}
+
+label{
+    display: block;
+}
+
+input+label{
+    display: inline;
+}
+
+input:checked+label{
+    font-weight: bold;
+}
+img {
+    width : 200px;
+    height: 200px;
+}
+
+form div{
+    margin: 10px;
+}
+
+#avatar{
+    display: none;
+}
+
+#preview{
+    cursor: pointer;
+}
+
+.bordure{
+    border: 5px dotted orange;
+}
+
+label[for^="ava"]{
+    width: 300px;
+}
+
+/*
+=
+^= commence par
+*= contient
+~= contient
+

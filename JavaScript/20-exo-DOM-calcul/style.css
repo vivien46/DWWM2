@@ -1,0 +1,29 @@
+button{
+ margin: 10px;
+ padding: 10px;
+ border-radius: 90%;
+ border-color: lightblue;
+ background: lightcoral;
+}
+
+input{
+    text-align: center;
+}
+
+select{
+    size: 10px;
+    padding: 2px;
+    background: lightsalmon;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#resultat{
+    padding : 8px;
+    border: 1px solid black;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
