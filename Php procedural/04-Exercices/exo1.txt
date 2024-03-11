@@ -1,0 +1,36 @@
+En respectant les conventions de syntaxe:
+
+
+-------------------------
+- declarer deux variables nommées type et marque, affectée chacune de la valeur Mégane et Renault
+- afficher le résultat sous forme de phrase en concaténant les variables avec du texte (Concaténation obligatoire, même si usage de double quotes)
+
+Le résultat devra ressembler à
+" La voiture Mégane de marque Renault, a été construite en 2023 "
+(Remarque, la date 2023 devra etre récupérée grace à une fonction prédéfinie)
+
+-----------------
+- Déclarer une constante nommée pays, affectée de la valeur Paris (Attention, respecter les conventions pour les constantes)
+- Afficher le contenu de cette constane dans la phrase de votre choix
+
+----------------
+
+Les conditions
+
+// if
+-declarer 4 variables
+nombre1, nombre2, nombre3 et nombre4, avec respectivement pour valeurs: 15 25 35 et 45
+
+Pour que la condition soit vérifiée, il faudra que nombre2 soit inférieur à nombre1 ou que nombre3 soit inférieur à nombre4 (afficher un message de confirmation ou d'erreur)
+
+// switch
+
+Une switch qui devra tester nombre1
+Dans un premier temps, elle teste si sa valeur est 35, puis dans un second temps si sa valeur est 25, puis le cas par défaut, "erreur, nombre1 ne contient aucune de ces valeurs
+
+--------------------------
+
+- declarer une variable nommée string et lui affecter une valeur "Je suis apprenant(e) dans un centre de formation, et je réside en IDF"
+
+- Donner la longueur de la chaine de caractère en focalisant sur l'espace mémoire
+- Afficher la première moitié de cette chaine de caracxtères

@@ -1,0 +1,15 @@
+Exo 1
+Méthode POST
+
+Créer un formulaire d'inscription avec trois inputs (identifiant/pseudo + email + mot de passe)
+Sur une autre page; connexion; récupérer les informations de l'inscription pour que l'utilisateur puisse se connecter ensuite
+
+
+-----------------------------
+
+Exo 2
+Méthode Get
+*Sur une page; créer trois boutons cliquables, avec trois formules voyages différentes (mettre leur prix, destination et formule(demi pension, pension complète, all-inclusive)) dans le href
+Selon le bouton cliqué, récupérer cet affichage (sur la même page pour un premier test, puis dans un second temps sur une autre, qui s'ouvre dans un nouvel onglet) avec une phrase sympa à lire
+
+
